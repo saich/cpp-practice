@@ -1,12 +1,16 @@
-#pragma once
+#ifndef BINARY_TREE_H_
+#define BINARY_TREE_H_
 
-struct Node {
+class Node {
+public:
+	int value;
 	Node* left;
 	Node* right;
-	int value;
 	Node(int a, Node* l = NULL, Node* r = NULL)
 		: value(a)
 		, left(l)
 		, right(r)
 	{}
 };
+
+#endif
