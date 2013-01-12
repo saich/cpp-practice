@@ -4,7 +4,7 @@
 #include <string>
 #include <sstream>
 #include <algorithm>
-#include <memory>
+#include <tr1/memory> // TODO: Remove tr1 and use C++11
 
 /** A macro to disallow the copy constructor and operator= functions.
 	This should be used in the private: declarations for a class
@@ -91,7 +91,7 @@ namespace Utility
 			  return p_.operator->();
 		}
 
-		 std::shared_ptr<T> p_;
+		 std::tr1::shared_ptr<T> p_;
 	};
 }
 
