@@ -8,3 +8,6 @@ Unit Testing is done using Google C++ Unit Testing Library, also called gtest. T
 - [https://code.google.com/p/googletest/wiki/Primer](https://code.google.com/p/googletest/wiki/Primer)
 - [https://code.google.com/p/googletest/wiki/AdvancedGuide](https://code.google.com/p/googletest/wiki/AdvancedGuide)
 
+
+### Hash Functions
+Use [SMHasher](https://code.google.com/p/smhasher/) for professional set of hash functions.
