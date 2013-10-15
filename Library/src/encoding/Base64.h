@@ -6,7 +6,7 @@
 
 class Base64 {
 public:
-	// TODO: Input can be binary data, so std::string might not be best choice..
+	// TODO: Convert input parameter to std::vector<std::uint8_t> type to support binary input
 	static std::string encode(std::string input);
 	static std::string decode(std::string input);
 
